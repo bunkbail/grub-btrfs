@@ -4,7 +4,7 @@
 
 name="grub-btrfs daemon"
 command="/usr/bin/grub-btrfs-openrc"
-pidfile="/run/{RC_SVCNAME}.pid"
+pidfile="/run/${RC_SVCNAME}.pid"
 command_background=true
 
 depend() {
